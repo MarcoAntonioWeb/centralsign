@@ -3,15 +3,11 @@ h1, h2, h3, h4, h5, h6, p, button {
   font-family: 'Roboto', sans-serif !important;
 }
 
-.carousel-item {
-  margin: auto;
-  width: 100px;
+@supports (position: sticky) {
+  navbar .sticky-top {
+    position: sticky !important;
+  }
 }
-
-.carousel-item img {
-  width: 660px !important;
-}
-
 
 .sublilhado {
   content: '';
@@ -23,9 +19,10 @@ h1, h2, h3, h4, h5, h6, p, button {
 }
 
 body {
-  background-color: rgb(116, 114, 108);
+  background: rgb(231, 230, 225) !important;
+  width: 100%;
 }
-/***** Cinfiguração Header ******/
+/***** Configuração Header ******/
 .telefoneEmail {
   display: flex;
   align-items: center;
@@ -40,8 +37,7 @@ body {
 
 /***** Configuração ICONS Header  ********/
 .bi-telephone-fill {
-  color: #ff8c00;
- 
+  color: #ff8c00; 
 }
 
 .tel {
@@ -90,12 +86,6 @@ body {
     padding:0px 20px;
   }
 
-  @supports (position: sticky) {
-    navbar .sticky-top {
-      position: sticky;
-    }
-  }
-
   .nav-link {
     color: white !important;
     font-family: 'Roboto', sans-serif;
@@ -124,8 +114,6 @@ body {
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%289, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
   }
-
-
 
   /****** Primeira seção *********/
   #primeiraHome {
@@ -181,14 +169,11 @@ body {
     
   }
 
-
   .titleterceiro {
     color: white;
     text-align: center;
     padding-top: 60px;
   }
-
-
 
   .imgTerca {
     width: 250px;
@@ -206,24 +191,7 @@ body {
     font-weight: bold;
   }
 
-  .carousel-inner {
-    width: 300px;
-  }
-
-  .carousel-teste {
-    display: flex;
-    margin: 30px 30px;
-    background-color: rgb(219, 209, 209);
-    padding: 20px;
-    
-  }
-
-  .carousel-item img {
-    width: 700vw;
-    height: 400px;
-    border-radius: 30px;
-  }
-
+  
   .servicos {
     margin-left: 20px;
   }
@@ -234,12 +202,100 @@ body {
     font-size: 4rem;
   }
 
-  @media (max-width: 768px) {
+  /********* Quarta seção **********/
+  #carouselExampleFade {
+    margin: 50px 0 40px 30px;
+    width: 70vw;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgb(80, 79, 79);
+  }
+  
+  .carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  #slideCarousel {
+    display: flex;
+    background: white;
+    margin: 30px 0;
+  }
 
+  .textoTrabalho {
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-right: 60px;
+  }
+
+  .textoTrabalho > p {
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Advent Pro', sans-serif !important;
+  }
+
+  .titleTrabalho {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Advent Pro', sans-serif !important;
+  }
+
+  footer {
+    background: url("../img/fundo-footer.jpg") fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    padding: 0 40px;
+  }
+
+  .sublilhadoFooter {
+    content: '';
+  border-top: 2px solid #FF8000;
+  width: 14em;
+  display: block;
+  margin-bottom: 8px;
+  margin: 0 auto 20px;
+}
+
+  footer.endereco {
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  }
+
+  footer.endereco  h4 {
+    color: white !important;
+  }
+
+  footer.endereco span.end {
+    color: white;
+  }
+
+  .bi-instagram {
+    color: #ff8c00;
+    font-size: 1.5rem;
+    padding-top: -10;
+  }
+  .bi-instagram:hover {
+    cursor: pointer;
+    transition: 1s all;
+    color: #80450b;
+  } 
+  
+
+  @media (max-width: 768px) {
+    @supports (position: sticky) {
+      navbar .sticky-top {
+        position: sticky !important;
+      }
+    }
+    
     .telefoneEmail {
       display: flex;
       flex-direction: column;
-      padding-top: 30px !important;
+      padding-top: 50px !important;
     }
 
     .navbar {
@@ -264,16 +320,42 @@ body {
       justify-content: center;
     }
 
-    .carousel-teste {
+    #slideCarousel {
       display: flex;
       flex-direction: column;
+      align-items: center;
+
     }
 
-    .carousel-item img {
-      width: 100% !important;
-      height: 300px;
-      border-radius: 30px;
+    .textoTrabalho {
+      padding-top: 0px;
+      padding-right: 20px;
+      padding-left: 10px;
     }
+
+    .titleTrabalho {
+      padding-top: 10px;
+    }
+
+    #carouselExampleFade {
+      margin: 50px 0 40px 5px;
+      width: 90vw;
+      
+    }
+
+    footer {
+      height: 140vh;
+
+    }
+
+    footer.endereco {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
   }
 
   @media (max-width: 460px) {
@@ -315,12 +397,6 @@ body {
       width: 300px;
     }
 
-    .carousel-item {
-      margin: auto;
-      width: 100%;
-    }
+  
   }
 
-
-
- 
