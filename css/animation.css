@@ -1,0 +1,91 @@
+
+/******** Primeira Seção Home *******
+.title-principal {
+    animation-name: slideTitlePrincipal;
+    animation-duration: 1000ms;
+    animation-delay: 500ms;
+    animation: slideTitlePrincipal 2s;
+  }
+
+  @keyframes slideTitlePrincipal {
+    from {
+        opacity: 0;
+        transform: translateX(-60%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+} 
+
+.subTitle-principal {
+  animation-name: slideSubTitlePrincipal;
+    animation-duration: 1000ms;
+    animation-delay: 500ms;
+    animation: slideSubTitlePrincipal 2s;
+}
+
+@keyframes slideSubTitlePrincipal {
+  from {
+      opacity: 0;
+      transform: translateX(-30%);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0%);
+  }
+} 
+
+
+.titleSegundaHome {
+    animation-name: slideTitleSegundaHome;
+    animation-duration: 1000ms;
+    animation-delay: 500ms;
+    animation: slideTitleSegundaHome 2s alternate; 
+}
+
+@keyframes slideTitleSegundaHome {
+    from {
+        transform: translateY(-260%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+  } 
+
+  .sublilhadoSegundo {
+    animation-name: slideSublilhadoSegundo;
+    animation-duration: 1000ms;
+    animation-delay: 500ms;
+    animation: slideSublilhadoSegundo 2s forwards 2s; 
+  }
+
+  @keyframes slideSublilhadoSegundo {
+    from {
+        transform: translateX(-180%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+  } *****/
+
+  /************ Animação com JavaSctipt **********/
+
+  [data-anime] {
+      opacity: 0;
+      transition: 0.5s;
+  }
+
+  [data-anime="left"] {
+      transform: translate3d(-150px, 0, 0);
+  }
+
+  [data-anime="right"] {
+      transform: translate3d(150px, 0, 0);
+  }
+
+  [data-anime].animate {
+      opacity: 1;
+      transform: translate3d(0px, 0px, 0px);
+  }
+

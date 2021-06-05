@@ -18,6 +18,15 @@ h1, h2, h3, h4, h5, h6, p, button {
   margin: 0 auto 20px;
 }
 
+.sublilhadoSegundo {
+  content: '';
+  border-top: 4px solid #FF8000;
+  width: 350px;
+  display: block;
+  margin-bottom: 8px;
+  margin: 0 auto 20px;
+}
+
 body {
   background: rgb(231, 230, 225) !important;
   width: 100%;
@@ -400,3 +409,4 @@ body {
   
   }
 
+  
