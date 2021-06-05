@@ -73,7 +73,7 @@
 
   [data-anime] {
       opacity: 0;
-      transition: 0.5s;
+      transition: 0.1s all;
   }
 
   [data-anime="left"] {
