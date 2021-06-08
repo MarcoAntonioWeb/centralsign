@@ -14,10 +14,11 @@ const debounce = function(func, wait, immediate) {
     };
 };
 
-
+/********* variavel criada para as animações *********/
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
 
+/*********Função criada para movementar o Scroll **********/
 function animeScroll() {
     const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
     target.forEach(function(element) {
@@ -31,7 +32,7 @@ function animeScroll() {
 
 animeScroll();
 
-if(target.length) {
+if(target.length) { 
     window.addEventListener('scroll', debounce( function() {
         animeScroll();
     }, 200));
