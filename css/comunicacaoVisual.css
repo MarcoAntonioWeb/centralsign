@@ -1,0 +1,61 @@
+.comunicacaoVisual {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) !important;
+    color: white;
+    padding-bottom: 50px;
+    }
+
+    img.float-left {
+        border-radius: 5px;
+        width: 430px;
+        height: 310px;
+        margin: 0px 20px 10px 0px;
+        float: left;
+    } 
+    
+    .text-body > p {
+        font-weight: 300;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5rem;
+        color: white;
+        text-align: justify;
+    }
+
+    .negrito {
+        font-weight: bold;
+        color: black;
+    }
+
+    /************ Serviços **********/
+    #servicoComVisual {
+        background-color: aliceblue;
+        color: rgb(58, 54, 54);
+    }
+
+    .card-title {
+        text-align: center !important;
+    }
+
+    .cardMeu > .bi {
+        font-size: 3.3rem;
+        position: relative;
+        left: 2.3em;
+        transition: 0.5s all;
+    }
+    .cardMeu > .bi:hover {
+        color: #2575fc;
+    }
+
+    .cardMeu > p {
+        text-align: justify;
+    }
+
+    @media (max-width: 768px) {
+        .card-title {
+            text-align: center !important;
+        }
+
+        .cardMeu > .bi {
+            position: relative;
+            left: 200px;
+        }
+    }

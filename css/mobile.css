@@ -58,8 +58,12 @@
     }
 
     footer {
-      height: 140vh;
+      height: 100vh;
 
+    }
+
+    .logoFooter {
+      padding-bottom: 30px;
     }
 
     footer.endereco {
@@ -68,8 +72,12 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: initial;
     }
 
+    .spaceFooter {
+    padding-bottom: 30px;
+    }
   }
 
 
