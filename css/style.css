@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6, p, button {
 
 
 
+
 .sublilhado {
   content: '';
   border-top: 4px solid #FF8000;
@@ -57,7 +58,7 @@ body {
   color: white;
   padding-right: 20px;
   font-family: 'Alegreya', serif;
-  font-size: 1.rem;
+  font-size: 1rem;
   font-weight: 100;
 }
 
@@ -70,7 +71,7 @@ body {
 }
 
 .email {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .email:hover {
@@ -82,7 +83,7 @@ body {
 .envelope {
   color: white;
   font-family: 'Alegreya', serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 100;
 }
 
@@ -216,45 +217,102 @@ body {
   }
 
   /********* Quarta seção **********/
-  #carouselExampleFade {
-    margin: 50px 0;
-    width: 70vw;
+  .carroselSlide {
+    margin: 50px 40px;
+    width: 400px !important;
+    height: 250px !important;
     border: none;
-    border-radius: 20px;
-    box-shadow: 10px 10px 15px rgb(80, 79, 79);
-  }
-  
-  .carousel-inner > .carousel-item > img {
-    width: 100%;
-    height: 400px;
+    overflow: hidden; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
   }
-  
-  #slideCarousel {
+
+  .carroselSlide ul  {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
     display: flex;
-    background: white;
-    margin: 30px 0px !important;
+   list-style: none;
+   width: 100%;
+   height: 250px !important;
+   
   }
 
-  .textoTrabalho {
-    padding-left: 30px;
-    padding-top: 60px;
-    padding-right: 60px;
+  .carroselSlide li {
+    position: relative;
+    animation: slide 15s infinite ease-out;
   }
 
-  .textoTrabalho > p {
-    text-align: justify;
-    font-weight: 500;
-    font-size: 1.5rem;
-    font-family: 'Advent Pro', sans-serif !important;
+  .carroselSlide li img {
+    width: 420px;
+    height: 250px;
   }
 
-  .titleTrabalho {
-    font-size: 4rem;
-    font-weight: 700;
-    font-family: 'Advent Pro', sans-serif !important;
+
+  @keyframes slide {
+    0%{left: -0px; opacity: 0}
+    10%{left: 0px; opacity: 1}
+
+    30%{left:-440px}
+    40%{left:-440px}
+
+    50%{left:-840px}
+    60%{left:-840px}
+
+    70%{left:-1260px}
+    80%{left:-1260px}
+
+    90%{left:-1660px}
+    100%{left:-1660px}
+
+    110%{left:-2040px}
+    120%{left:-2040px}
+
+    130%{left:-2480px}
+    140%{left:-2480px}
+
+    140%{left:0px}
   }
 
+.trabalho {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 60vh;
+  margin: 40px 0px !important;
+
+  
+}
+
+.text-trabalho {
+  width: 50%;
+  padding-top: 45px;
+}
+
+.text-trabalho h1 {
+  font-weight: 700;
+  font-size: 3rem;
+
+}
+
+.text-trabalho h5 {
+  font-size: 2rem;
+}
+
+.text-trabalho p {
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+ 
+/********** Configuração Footer *********/
   footer {
     background: url("../img/fundo-footer.jpg") fixed;
     background-repeat: no-repeat;
@@ -276,6 +334,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
   }
 
@@ -299,7 +358,20 @@ body {
     cursor: pointer;
     transition: 1s all;
     color: #80450b;
-  } 
+  }
+  
+  .copyFundo {
+    background-color: #000;
+    width: 100%;
+    height: 10vh;
+  }
+
+  .copy {
+    text-align: center !important;
+    padding-top: 20px;
+    color: white;
+    
+  }
   
 
  

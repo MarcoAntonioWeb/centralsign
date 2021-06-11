@@ -4,7 +4,7 @@ body {
 
 .text-center {
   padding-bottom: 3px;
-  color:#989898;
+  color: white;
   font-size:3rem;
   font-weight: 100;
 }
@@ -17,6 +17,15 @@ body {
 
 .page-top{
   margin-top:45px;
+}
+
+.page-top > h5 {
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  letter-spacing: 1.5px;
+  font-size: 1.4rem;
+  font-weight: 100;
 }
         
 .thumb{

@@ -4,7 +4,7 @@
 
   [data-anime] {
       opacity: 0;
-      transition: 0.2s;
+      transition: 0.2s ease-out;
   }
 
   [data-anime="left"] {
