@@ -100,6 +100,8 @@
       width: 100% !important;
       height: 250px;
     }
+
+
   }
 
 
@@ -149,7 +151,28 @@
       width: 300px;
     }
 
-   
+    .segundoHome {
+      padding-left: 5px !important;
+    }
+
+    .trabalho {
+      padding-top: 10px !important;
+      display: flex;
+      height: 140vh;
+      flex-direction: column;
+    }
+
+    .text-trabalho {
+      width: 90%;
+      margin: 0 48px !important;
+      padding-left: -5px !important;
+      padding-top: 10px;
+    }
+
+   .whatsapp-link {
+    bottom: 15%;
+    left: 78%; 
+   }
 
   
   }
@@ -199,5 +222,11 @@
   .carroselSlide {
     width: 66% !important;
   }
+
+  .whatsapp-link {
+    bottom: 2%;
+    left: 85%; 
+   }
+
 
 }
