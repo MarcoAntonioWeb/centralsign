@@ -28,7 +28,7 @@
 
 
     #terceiraHome {
-      height: 250vh;
+      height: 280vh;
     }
 
     .imgConfig {
@@ -72,10 +72,12 @@
     }
 
     footer.endereco {
+      width: 100% !important;
       padding-top: 50px;
       padding-bottom: 50px;
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap !important;
       align-items: center;
       justify-content: initial;
      
@@ -205,7 +207,7 @@
   }
 
   #terceiraHome {
-    height: 260vh;
+    height: 280vh;
    
   }
 
