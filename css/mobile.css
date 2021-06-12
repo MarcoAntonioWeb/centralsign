@@ -63,7 +63,7 @@
     }
 
     footer {
-      height: 103vh;
+      height: 103vh !important;
     }
 
    
@@ -76,10 +76,10 @@
       padding-top: 50px;
       padding-bottom: 50px;
       display: flex;
-      flex-direction: column;
+      flex-direction: column !important;
       flex-wrap: wrap !important;
-      align-items: center;
-      justify-content: initial;
+      align-items: center !important;
+      justify-content: initial !important;
      
     }
 
