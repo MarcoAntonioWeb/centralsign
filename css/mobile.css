@@ -215,5 +215,16 @@
     left: 87%; 
    }
 
+   footer {
+     padding-top: 60px;
+     height: 180vh;
+     display: flex;
+     align-items: center !important;
+     flex-direction: column;
+     justify-content: initial;
+     flex-wrap: wrap;
+
+   }
+
 
 }
