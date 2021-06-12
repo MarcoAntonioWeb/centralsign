@@ -188,6 +188,10 @@
       
   }
 
+  .telefoneEmail {
+    height: 15vh;
+  }
+
   .logoFooter{
     padding-bottom: 30px ;
   }
