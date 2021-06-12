@@ -71,17 +71,17 @@
       padding-bottom: 30px;
     }
 
-    footer.endereco {
+   /* footer.endereco {
       width: 100% !important;
       padding-top: 50px;
       padding-bottom: 50px;
-      display: flex;
+      display: flex !important;
       flex-direction: column !important;
       flex-wrap: wrap !important;
       align-items: center !important;
       justify-content: initial !important;
      
-    }
+    } */
 
     .spaceFooter {
     padding-bottom: 30px;

@@ -39,24 +39,5 @@ if(target.length) {
 }
 
 
-/**********Animação do scroll das imagens Home **********/
-document.querySelector('#items');
-addEventListener("wheel", Event => {
-    if(Event.deltaY > 0) {
-        Event.target.scrollBy(300, 0)
-    } else {
-        Event.target.scrollBy(-300, 0)
-    }
-})
 
-(function () {
-    var options = {
-        whatsapp: "+55(16)991690872", // WhatsApp number
-        call_to_action: "Fale Conosco Agora!", // Call to action
-        position: "right", // Position may be 'right' or 'left'
-    };
-    var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-    s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-})();
+
