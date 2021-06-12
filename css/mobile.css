@@ -71,17 +71,7 @@
       padding-bottom: 30px;
     }
 
-   /* footer.endereco {
-      width: 100% !important;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      display: flex !important;
-      flex-direction: column !important;
-      flex-wrap: wrap !important;
-      align-items: center !important;
-      justify-content: initial !important;
-     
-    } */
+   
 
     .spaceFooter {
     padding-bottom: 30px;
@@ -180,15 +170,7 @@
   }
 
   @media (min-width: 640px) and (max-width: 767px) {
-    footer {
-      height: 180vh;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: initial !important;
-      padding-top: 50px;
-      
-  }
+   
 
   .telefoneEmail {
     height: 15vh;
@@ -207,7 +189,7 @@
   }
 
   #terceiraHome {
-    height: 280vh;
+    height: 280vh !important;
    
   }
 
