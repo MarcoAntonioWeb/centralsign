@@ -28,7 +28,9 @@
 
 
     #terceiraHome {
-      height: 280vh;
+      overflow-wrap: normal;
+      overflow: hidden;
+      height: 270vh !important;
     }
 
     .imgConfig {
@@ -196,6 +198,8 @@
   }
 
   #terceiraHome {
+    overflow-wrap: normal;
+    overflow: hidden;
     height: 280vh !important;
    
   }
