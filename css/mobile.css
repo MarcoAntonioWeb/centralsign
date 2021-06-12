@@ -240,3 +240,37 @@
 
 
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .segundoHome {
+    overflow: hidden;
+  }
+
+  .imgSegundoHome {
+    width: 300px;
+  }
+
+  #terceiraHome {
+    overflow: hidden;
+    height: 60vh;
+  }
+
+  #terceiraHome .col {
+    border: 2px solid red;
+  } 
+
+  #terceiraHome img {
+    margin: 0 auto;
+  }
+
+  .endereco {
+    background: url("../img/fundo-footer.jpg") !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 30vh !important;
+  }
+
+  
+
+  
+}

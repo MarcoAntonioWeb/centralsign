@@ -62,10 +62,12 @@ body {
 
 .bi-phone-vibrate-fill {
   color: #ff8c00;
+  font-size: 1.3rem;
 }
 
 .bi-envelope-fill {
   color: #ff8c00;
+  font-size: 1.1rem;
 }
 
 .email:hover {
@@ -309,11 +311,25 @@ body {
     background: url("../img/fundo-footer.jpg") fixed;
     background-repeat: no-repeat;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     padding: 0 40px;
   }
 
- 
+  footer .alinhamentoFotter {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .enderecoFooter {
+    padding-top: 15px;
+  }
+
+  .contato {
+    padding-top: 24px;
+  }
 
   .sublilhadoFooter {
     content: '';
@@ -323,8 +339,16 @@ body {
     margin-bottom: 8px;
   }
   
+  .spaceFooter  .bi-instagram {
+    color: #ff8c00;
+    font-size: 1.3rem;
+  }
 
-   .endereco h4, 
+  .spaceFooter .bi-instagram:hover {
+    color: #994f04;
+  }
+
+  .endereco h4, 
   .end,
   .emailFooter, 
   .telFooter, 
