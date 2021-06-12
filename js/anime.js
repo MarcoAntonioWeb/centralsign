@@ -1,4 +1,4 @@
-const debounce = function(func, wait, immediate) {
+/***const debounce = function(func, wait, immediate) {
     let timeout;
     return function(...args) {
         const context = this;
@@ -14,11 +14,11 @@ const debounce = function(func, wait, immediate) {
     };
 };
 
-/********* variavel criada para as animações *********/
+/********* variavel criada para as animações *********
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
 
-/*********Função criada para movementar o Scroll **********/
+/*********Função criada para movementar o Scroll **********
 function animeScroll() {
     const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
     target.forEach(function(element) {
@@ -38,6 +38,6 @@ if(target.length) {
     }, 200));
 }
 
-
+*******/
 
 

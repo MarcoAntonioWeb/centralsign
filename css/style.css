@@ -351,14 +351,23 @@ body {
     color: white;
   }
 
- 
+ .spaceFooter .bi-phone-vibrate-fill {
+  color: #ff8c00;
+  font-size: 1.5rem;
 
-  .bi-instagram {
+ }
+
+  .spaceFooter  .bi-envelope-fill {
     color: #ff8c00;
     font-size: 1.5rem;
-    padding-top: -10;
   }
-  .bi-instagram:hover {
+
+  .spaceFooter .bi-instagram {
+    color: #ff8c00;
+    font-size: 1.5rem;
+    
+  }
+  .spaceFooter .bi-instagram:hover {
     cursor: pointer;
     transition: 1s all;
     color: #80450b;

@@ -220,9 +220,9 @@
      height: 180vh;
      display: flex;
      align-items: center !important;
-     flex-direction: column;
+     flex-direction: column !important;
      justify-content: initial;
-     flex-wrap: wrap;
+     flex-wrap: wrap !important;
 
    }
 
