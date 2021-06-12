@@ -224,7 +224,7 @@
 
    .endereco {
      height: 160vh !important;
-     
+     overflow-wrap: normal;
      
    }
 
