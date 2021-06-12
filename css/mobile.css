@@ -28,8 +28,6 @@
 
 
     #terceiraHome {
-      background: url("../img/fundo-tercaUm.jpg") fixed !important;
-      background-repeat: no-repeat;
       overflow-wrap: normal;
       overflow: hidden;
       height: 270vh !important;
@@ -65,8 +63,6 @@
       width: 90vw;
       
     }
-
-    
 
    
     .logoFooter {
