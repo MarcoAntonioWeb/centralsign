@@ -62,9 +62,7 @@
       
     }
 
-    footer {
-      height: 103vh !important;
-    }
+    
 
    
     .logoFooter {
@@ -91,6 +89,14 @@
     .carroselSlide {
       width: 100% !important;
       height: 250px;
+    }
+
+    .endereco {
+      height: 90vh;
+    }
+
+    .logoFooter {
+      padding-top: 40px;
     }
 
 
@@ -185,6 +191,7 @@
   }
 
   .copyFundo {
+    width: 100% !important;
     height: 20vh;
   }
 
@@ -215,15 +222,18 @@
     left: 87%; 
    }
 
-   footer {
-     padding-top: 60px;
-     height: 180vh;
-     display: flex;
-     align-items: center !important;
-     flex-direction: column !important;
-     justify-content: initial;
-     flex-wrap: wrap !important;
+   .endereco {
+     height: 160vh !important;
+     
+     
+   }
 
+   .logoFooter {
+     padding-top: 40px;
+   }
+
+   .alinhamentoFotter {
+     padding-left: 10em;
    }
 
 

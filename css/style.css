@@ -11,8 +11,6 @@ h1, h2, h3, h4, h5, h6, p, button {
 }
 
 
-
-
 .sublilhado {
   content: '';
   border-top: 4px solid #FF8000;
@@ -70,12 +68,8 @@ body {
   color: #ff8c00;
 }
 
-.email {
-  text-decoration: none !important;
-}
-
 .email:hover {
-  color: rgb(14, 2, 68) !important;
+  color: white;
   cursor: pointer;
   transition: 1s all;
 }
@@ -308,74 +302,45 @@ body {
   text-align: justify;
 }
 
-
-
-
-
-
-
-
  
 /********** Configuração Footer *********/
   footer {
     background: url("../img/fundo-footer.jpg") fixed;
     background-repeat: no-repeat;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     padding: 0 40px;
   }
 
+ 
+
   .sublilhadoFooter {
     content: '';
-  border-top: 2px solid #FF8000;
-  width: 14em;
-  display: block;
-  margin-bottom: 8px;
-  margin: 0 auto 20px;
-}
-
-  footer.endereco {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+    border-top: 4px solid #FF8000;
+    width: 17em;
+    display: block;
+    margin-bottom: 8px;
   }
+  
 
-  footer.endereco  h4 {
-    color: white !important;
-   
-  }
-
-  footer.endereco span.end {
+   .endereco h4, 
+  .end,
+  .emailFooter, 
+  .telFooter, 
+  .envelopeFooter {
     color: white;
+    transition: 0.5s all;
+  }
+  
+  .emailFooter:hover {
+    color: white; 
   }
 
- .spaceFooter .bi-phone-vibrate-fill {
-  color: #ff8c00;
-  font-size: 1.5rem;
-
- }
-
-  .spaceFooter  .bi-envelope-fill {
-    color: #ff8c00;
-    font-size: 1.5rem;
-  }
-
-  .spaceFooter .bi-instagram {
-    color: #ff8c00;
-    font-size: 1.5rem;
-    
-  }
-  .spaceFooter .bi-instagram:hover {
-    cursor: pointer;
-    transition: 1s all;
-    color: #80450b;
-  }
+ 
   
   .copyFundo {
     background-color: #000;
-    width: 100%;
+    width: 100% !important;
     height: 10vh;
   }
 
