@@ -1,0 +1,54 @@
+#for-img {
+    background: url("../img/fundo.jpg") fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.copy {
+    background: rgb(116, 115, 115);
+}
+
+/**** Formulario  ****/
+#formulario {
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    border: none;
+
+}
+
+#for-header {
+    border-radius: 10px 10px 0 0;
+    border: none;
+
+}
+/****  FOOTER ****/
+#rodape-end {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    padding-bottom: 40px;
+}
+
+span.ts {
+    font-size: 20px;
+    
+}
+span.cel {
+    font-size: 20px;
+     
+}
+
+.mensagem-alerta {
+    text-align: center;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+
+.alert {
+    font-size: 5rem;
+    color: blue;
+}
