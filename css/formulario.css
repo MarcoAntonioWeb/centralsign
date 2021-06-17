@@ -52,3 +52,15 @@ span.cel {
     font-size: 5rem;
     color: blue;
 }
+
+
+@media screen and (min-width:300px) and (max-width:1024px) {
+    #formulario {
+        border:none;
+        border-radius: 10px;
+        width: 100% !important;
+        margin: auto;
+        
+    
+    }
+}

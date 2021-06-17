@@ -168,7 +168,7 @@
     }
 
    .whatsapp-link {
-    bottom: 15%;
+    bottom: 5%;
     left: 78%; 
    }
 
@@ -255,10 +255,7 @@
     height: 60vh;
   }
 
-  #terceiraHome .col {
-    border: 2px solid red;
-  } 
-
+  
   #terceiraHome img {
     margin: 0 auto;
   }
