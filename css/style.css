@@ -88,8 +88,9 @@ body {
     background-image: linear-gradient(to bottom, #bb1923 0%, #0f0d1d 80%);
   }
 
-  .logo {
+  img.logo {
     width: 200px;
+    height: auto;
   }
 
   .navbar {
@@ -127,7 +128,7 @@ body {
 
   /****** Primeira seção *********/
   #primeiraHome {
-    background-image: url("../img/fundo-porta.png") !important;
+    background-image: url("../img/fundo-porta.jpg") !important;
     background-repeat: no-repeat;
     background-size: 100% 100% !important;
     width: 100%;
@@ -170,6 +171,7 @@ body {
 
   .imgSegundoHome {
     width: 400px;
+    height: auto;
   }
 
   /*********** Terçeira seção *********/
