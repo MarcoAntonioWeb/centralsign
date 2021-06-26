@@ -135,7 +135,7 @@
     
 <div class="container-fluid py-5" id="for-img">
   <div class="py-5"></div>
-   <form method="post" action="index.php#formulario" role="form" data-toggle="validator">
+   <form method="post" action="contato.php#formulario" role="form" data-toggle="validator">
       <div id="formulario"class="card ">
           <div class="card-header p-0">
               <div id="for-header" class="text-white text-center py-2" 

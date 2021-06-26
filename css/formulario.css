@@ -64,3 +64,16 @@ span.cel {
     
     }
 }
+
+/********** Configuração formulario alerta ***********/
+.mensagem-alerta {
+    text-align: center;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+
+.alert {
+    font-size: 1rem;
+    color: rgb(9, 134, 82);
+}

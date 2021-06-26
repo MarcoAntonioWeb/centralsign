@@ -11,14 +11,14 @@
         $email = addslashes($_POST['email']);
         $mensagem = addslashes($_POST['mensagem']);
 
-        $to = "ts_construtora@yahoo.com";
-        $subject = "Contato - Ts Construtora\n";// corpo da mensagem
+        $to = "centralsigncv@gmail.com";
+        $subject = "Contato - Central Sign\n";// corpo da mensagem
        $body = "Nome: ".$nome. "\r\n".
                 "Telefone: ".$telefone. "\r\n".
                 "Email: ".$email. "\r\n".
                 "Mensagem: ".$mensagem. "\r\n".     
 
-        $header = "tsacab28@tsacabamentoereforma.com.br"."\r\n". 
+        $header = "lyncow@centralsigncv.com.br"."\r\n". 
                     "Replay-To:".$email. "\r\n".
                     "X=Mailer:PHP/".phpversion();
                                    
